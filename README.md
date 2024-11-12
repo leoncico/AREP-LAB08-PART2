@@ -64,10 +64,11 @@ Para ejecutar la aplicación es necesario instalar Python 3.12.7 o versiones sim
 git clone https://github.com/leoncico/AREP-LAB08-PART2.git
 ````
 
-A continuación debe editar el archivo RAGProyect.py en la linea 11 para ingresar la clave API de chatgpt (se indica cual es la clave en comentario de entrega).
+A continuación debe editar el archivo RAGProyect.py en la linea 11 y 12 para ingresar la clave API de chatgpt y de LangChain (se indican cuales son las clave en comentario de entrega).
 
 ```
 os.environ["OPENAI_API_KEY"] = "(clave api)"
+os.environ["LANGCHAIN_API_KEY"] = "(clave api)"
 ```
 
 Luego ingrese a la terminal y escriba los siguientes comandos (para windows):
